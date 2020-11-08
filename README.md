@@ -1,7 +1,7 @@
 # SciLab_Tutorials
 This Repo contains all the programs required for Numerical and Scientific Computation, specifically in Physics discipline. Any enthusiast is whole heartedly welcomed to learn, explore and change any of the programs. This will be in Public Domain till the owner's death.
 
-#Owner's Description
+#Owner's_Description
 Name             : SATYAM TIWARI
 Course           : B.Sc.(Hons.) Physics
 College          : Kirori Mal College, University of Delhi, North Campus, Delhi -                        110007
@@ -19,4 +19,5 @@ Unit 7 : System of 1st Order Differential Equations
 Unit 8 : System of 2nd Order Differential Equations
 Unit 9 : Using Scicos/Xcos
 
-Programming in progress, all data still not uploaded...
+#Note
+! Programming in progress, all data still not uploaded...
