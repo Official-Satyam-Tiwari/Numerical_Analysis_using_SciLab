@@ -36,3 +36,19 @@ plot(x,U','o',xf,yf);
 xlabel("x");
 legend("Finite Diff","Exact");
 
+////OUTPUT
+//
+//Enter the number of iterations : 10
+//
+//
+//   0.    
+//  -0.099 
+//  -0.1968
+//  -0.2898
+//  -0.372 
+//  -0.435 
+//  -0.468 
+//  -0.4578
+//  -0.3888
+//  -0.243 
+//   0.    

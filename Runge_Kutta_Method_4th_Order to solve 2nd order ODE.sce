@@ -40,3 +40,11 @@ disp("y=",y(i));
 
 scf(1);clf;
 plot2d(x,[y,z],[1,2],leg="x VS y @ x VS dy/dx");
+
+//OUTPUT
+//Enter the number of iterations, to perform : 50
+//
+//
+//  "y="
+//
+//  -2.9599606

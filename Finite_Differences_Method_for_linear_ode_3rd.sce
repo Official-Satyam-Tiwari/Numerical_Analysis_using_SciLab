@@ -1,20 +1,23 @@
 //FINITE DIFFERENCES METHOD TO SOLVE LINEAR ODE
-//GIVEN ODE : y''(x) + y(x) = 0
+//GIVEN ODE : y''(x) + y'(x) = 0
 //GIVEN Boundary Conditions : y(0)=1 , y(%pi/2)=1
-//ANALYTICAL SOLUTION : y=sin(x)+cos(x)
+//ANALYTICAL SOLUTION : y=1
 
 clear;clc;
 a=0;    //Lower Bound
 b=%pi/2;    //Upper Bound
 n=int(input("Enter the number of iterations : "));
-dx=(b-a)/n;
-x=a:dx:b;
+dx=(b-a)/n; //dx=Step-Size
+h=dx;
+x=a:dx:b;   //Defining range of x
 
 //Matrix Form (using Finite Diff Formula)
-t=(dx^2)-2;
+p=((1/h)+0.5);
+q=(-1)*(2/h);
+r=((1/h)-0.5);
 A(1,1)=1;
 for i=2:n
-    A(i,[i-1 i i+1])=[1 t 1];
+    A(i,[i-1 i i+1])=[p q r];
 end
 A(n+1,n+1)=1;
 
