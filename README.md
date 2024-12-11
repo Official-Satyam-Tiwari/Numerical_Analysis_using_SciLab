@@ -18,6 +18,3 @@ Unit 6 : Solution of Ordinary Differential Equations (ODE)
 Unit 7 : System of 1st Order Differential Equations
 Unit 8 : System of 2nd Order Differential Equations
 Unit 9 : Using Scicos/Xcos
-
-#Note
-! Programming in progress, all data still not uploaded...
